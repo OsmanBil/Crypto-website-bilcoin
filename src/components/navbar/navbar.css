@@ -1,0 +1,19 @@
+.navbar-content{
+    padding-left: 12px;
+    width: 100vw;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+   
+}
+
+.navbar-logo {
+   text-align: center;
+   text-decoration: none;
+}
+  
+a{
+    padding-right: 20px;
+}
