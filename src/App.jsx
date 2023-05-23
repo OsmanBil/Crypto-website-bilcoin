@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Product from "./components/product";
 import Navbar from "./components/navbar/navbar";
-import ShoppingCard from "./components/shopping-card";
 import Footer from './components/footer/footer';
 import About from './components/about/about';
+import About from './components/systems/systems';
 
 
 class App extends Component {
@@ -37,13 +36,11 @@ class App extends Component {
     render() {
         return <React.Fragment>
             <div className='navbar-container '>
-                
-                    <Navbar />
-            
+                <Navbar />
             </div>
-
             <div className='main-container'>
                 <div className='about'><About /></div>
+                <div><Systems/></div>
             </div>
             <div className="footer"><Footer /></div>
         </React.Fragment>
