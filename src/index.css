@@ -34,19 +34,21 @@ body {
   }
   
 
-.product-container {
-    display: flex;
-    gap: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
+.key-features{
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 100%;
+  background-image: url('../public/assets/img/half-service-bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.shopping-card{
-    width: 25vw;
-}
 
 .main-container{
     display: flex;
+    flex-direction: column;
 
 }
 
