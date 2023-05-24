@@ -22,14 +22,14 @@ class About extends Component {
                 <div className='about-right'>
                     <div className="card text-center mb-3" style={{ width: '18rem' }}>
                         <div className="card-body">
-                            <h5 className="card-title">Bilcoin is live now</h5>
-                            <p className="card-text">1 st stage ends in</p>
-                            <a href="#" className="btn btn-primary">Buy Bilcoin now</a>
+                            <h5 className="card-title text-dark">Bilcoin is live now</h5>
+                            <p className="card-text text-dark">1 st stage ends in</p>
+                            <a href="#" className="btn btn-primary ">Buy Bilcoin now</a>
                             <br />
                             <br />
-                            <h5>1 ETH = 2000 CTR</h5>
+                            <h5 className='text-dark'>1 ETH = 2000 CTR</h5>
                             <p>2nd stage starts at 30th Mar</p>
-                            <div className='crypto-status'>
+                            <div className='crypto-status text-dark'>
                                 <div>
                                     <div><p>Sold</p></div>
                                     <div><p>1111</p></div>
@@ -39,7 +39,7 @@ class About extends Component {
                                     <div><p>22222</p></div>
                                 </div>
                             </div>
-                            <div>We accept <div>B | E</div></div>
+                            <div className='text-dark'>We accept <div>B | E</div></div>
                         </div>
                     </div>
                 </div>

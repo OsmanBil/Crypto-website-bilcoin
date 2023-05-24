@@ -7,6 +7,8 @@ import KeyFeatures from './components/keyFeatures/keyFeatures';
 
 
 class App extends Component {
+
+
     state = {
         items: []
     }
@@ -33,6 +35,19 @@ class App extends Component {
 
     }
 
+    componentDidMount() {
+        const parallaxElements = document.querySelectorAll('.parallax-container');
+        parallaxElements.forEach((parallaxContainer) => {
+            const parallaxDiv = parallaxContainer.querySelector('.parallax');
+            const parallaxHeight = parallaxDiv.offsetHeight;
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const parallaxOffset = (scrollTop - parallaxContainer.offsetTop) * 0.4; // Hier können Sie die Geschwindigkeit anpassen
+                parallaxDiv.style.transform = `translate3d(0, ${parallaxOffset}px, 0)`;
+            });
+        });
+    }
+
 
     render() {
         return <React.Fragment>
@@ -40,9 +55,20 @@ class App extends Component {
                 <Navbar />
             </div>
             <div className='main-container'>
-                <div className='about'><About /></div>
-                <div><Systems/></div>
-                <div className='key-features'><KeyFeatures/></div>
+
+
+
+                <div class="parallax-container">
+                    <div class="parallax"></div>
+                    <div class="parallax-content">
+                        <div className='about'><About /></div>
+                    </div>
+                </div>
+
+
+
+                <div><Systems /></div>
+                <div className='key-features'><KeyFeatures /></div>
             </div>
             <div className="footer"><Footer /></div>
         </React.Fragment>

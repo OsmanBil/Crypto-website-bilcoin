@@ -131,7 +131,9 @@ class KeyFeatures extends Component {
                 </div>
             </div>
 
-
+            <div className="about-bottom-middle text-light">
+                    <p style={{ transform: 'rotate(-90deg)' }}>Why us? -------------</p>
+                </div>
 
 
 

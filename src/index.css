@@ -22,16 +22,40 @@ body {
 
   .about{
   width: 100%;
-  background-image: url('../public/assets/img/hero-bg-1.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
+  
 
   padding-top: 200px;
   padding-right: 120px;
   padding-left: 120px;
   }
+
+
+  .parallax-container {
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/assets/img/hero-bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .parallax-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: #fff; /* Textfarbe anpassen */
+  }
+  
   
 
 .key-features{

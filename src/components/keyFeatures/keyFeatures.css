@@ -1,5 +1,9 @@
 .key-features-container{
-
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 p {
@@ -11,3 +15,15 @@ p {
     color: #adadad; /* Helle Textfarbe Ihrer Wahl */
   }
   
+
+  .about-bottom-middle {
+    grid-column: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 160px;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+   
+  }
