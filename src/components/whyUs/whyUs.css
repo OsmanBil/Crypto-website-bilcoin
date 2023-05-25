@@ -1,0 +1,16 @@
+.why-us-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.why-us-left{
+    width: 100%;
+    display: flex;
+}
+
+.why-us-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

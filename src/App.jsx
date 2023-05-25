@@ -4,6 +4,7 @@ import Footer from './components/footer/footer';
 import About from './components/about/about';
 import Systems from './components/systems/systems';
 import KeyFeatures from './components/keyFeatures/keyFeatures';
+import WhyUs from './components/whyUs/whyUs';
 
 
 class App extends Component {
@@ -55,20 +56,15 @@ class App extends Component {
                 <Navbar />
             </div>
             <div className='main-container'>
-
-
-
                 <div class="parallax-container">
                     <div class="parallax"></div>
                     <div class="parallax-content">
                         <div className='about'><About /></div>
                     </div>
                 </div>
-
-
-
                 <div><Systems /></div>
                 <div className='key-features'><KeyFeatures /></div>
+                <div className='why-us'><WhyUs/></div>
             </div>
             <div className="footer"><Footer /></div>
         </React.Fragment>

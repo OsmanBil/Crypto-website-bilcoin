@@ -22,9 +22,6 @@ body {
 
   .about{
   width: 100%;
-  
-  
-
   padding-top: 200px;
   padding-right: 120px;
   padding-left: 120px;
@@ -69,6 +66,17 @@ body {
   background-size: cover;
 }
 
+
+.why-us {
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 100%;
+  background-image: url('../public/assets/img/half-about-bg.jpg');
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .main-container{
     display: flex;
