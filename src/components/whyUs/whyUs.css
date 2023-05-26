@@ -14,3 +14,20 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.w-50-p{
+width: 50vw;
+
+}
+
+.custom-text-light {
+    color: #adadad;
+  }
+
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    padding-left: 0;
+  }
