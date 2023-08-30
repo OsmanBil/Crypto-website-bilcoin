@@ -5,6 +5,7 @@ import About from './components/about/about';
 import Systems from './components/systems/systems';
 import KeyFeatures from './components/keyFeatures/keyFeatures';
 import WhyUs from './components/whyUs/whyUs';
+import Product from './components/product';
 
 
 class App extends Component {
@@ -48,7 +49,8 @@ class App extends Component {
             });
         });
     }
-
+ 
+    
 
     render() {
         return <React.Fragment>
@@ -56,15 +58,22 @@ class App extends Component {
                 <Navbar />
             </div>
             <div className='main-container'>
-                <div class="parallax-container">
-                    <div class="parallax"></div>
-                    <div class="parallax-content">
+                <div className="parallax-container">
+                    <div className="parallax"></div>
+                    <div className="parallax-content">
+                        <div className='product-container'>
+                            <Product />
+                            <Product />
+                            <Product />
+                            <Product />
+                            <Product />
+                        </div>
                         <div className='about'><About /></div>
                     </div>
                 </div>
                 <div><Systems /></div>
                 <div className='key-features'><KeyFeatures /></div>
-                <div className='why-us'><WhyUs/></div>
+                <div className='why-us'><WhyUs /></div>
             </div>
             <div className="footer"><Footer /></div>
         </React.Fragment>
