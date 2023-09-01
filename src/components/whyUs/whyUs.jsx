@@ -30,10 +30,14 @@ class WhyUs extends Component {
             <div className='why-us-right'>
                 <div className="card border-0" style={{ width: '18rem', backgroundColor: 'transparent' }}>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">White paper</a>
+                        <h5 className="card-title">Unseen technology</h5>
+                        <p className="card-text">Using a blockchain is cryptographically secure – the ledger is distributed across all nodes in the system making hacking near impossible.</p>
+                        <ul>
+                            <li>An innovative hybrid proof-of-work</li>
+                            <li>Proof-of-stake (PoS) consensus voting system</li>
+                            <li>Instant, on-demand settlement</li>
+                        </ul>
+                        <a href="#" className="btn btn-primary">Learn more</a>
                     </div>
                 </div>
                 <div></div>

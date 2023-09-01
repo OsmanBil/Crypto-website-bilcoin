@@ -1,5 +1,5 @@
 .key-features-container{
-  margin-bottom: 64px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,13 @@
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.icon{
+  margin-left: 16px;
+    margin-bottom: 8px
+px
+;
 }
 
 .custom-text-light {
@@ -24,6 +31,6 @@ p {
     max-width: 160px;
     
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
    
   }

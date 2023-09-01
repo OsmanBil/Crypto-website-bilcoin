@@ -50,3 +50,45 @@
 .padding-right{
     padding-right: 24px;
 }
+
+
+@media (max-width: 850px) {
+
+
+    .about-top-box{
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-right{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  
+  }
+
+  @media (max-width: 450px) {
+
+
+    .about-top-box{
+        margin-top: 100px;
+
+    }
+    
+  
+  }

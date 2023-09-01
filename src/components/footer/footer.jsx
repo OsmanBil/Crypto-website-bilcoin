@@ -6,17 +6,17 @@ class Footer extends Component {
     state = {  } 
     render() { 
         return (
-            <footer className="bg-dark text-light">
+            <footer className="bg-dark text-light footer-container">
               <Container>
                 <Row>
                   <Col md={6}>
-                    <h5>Informationen</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>Bilcoin</h5>
+                    <p>Bilcoin, everyone has a voice and the ability to propose projects directly to the network. Anything you can do.</p>
                   </Col>
                   <Col md={6}>
-                    <h5>Kontakt</h5>
-                    <p>Email: info@example.com</p>
-                    <p>Telefon: 123-456-7890</p>
+                    <h5>Contact</h5>
+                    <p>Email: admin@bilcon.com</p>
+                    <p>Phone: 123-456-7890</p>
                   </Col>
                 </Row> <div>
                 <Copyright/>

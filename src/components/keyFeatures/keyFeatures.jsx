@@ -12,7 +12,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-1.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -27,7 +27,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-2.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -42,7 +42,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-3.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -57,7 +57,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-4.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -72,7 +72,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-5.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -87,7 +87,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-6.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -102,7 +102,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-7.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
@@ -117,7 +117,7 @@ class KeyFeatures extends Component {
                 <div className="col-md-6">
                     <div className="card pt-3 mb-3 border-0" style={{ maxWidth: '540px', backgroundColor: 'transparent' }}>
                         <div className="row g-0">
-                            <div className="col-md-2">
+                            <div className="col-md-2 icon">
                                 <img src="/assets/img/features-8.png" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">

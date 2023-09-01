@@ -31,3 +31,24 @@ width: 50vw;
   ul li {
     padding-left: 0;
   }
+
+  @media (max-width: 850px) {
+    .why-us-left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .why-us-right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }

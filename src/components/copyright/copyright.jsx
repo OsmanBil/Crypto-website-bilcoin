@@ -8,10 +8,10 @@ class Copyright extends Component {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <p>&copy; 2023 Meine Firma. Alle Rechte vorbehalten.</p>
+              <p>&copy; Copyright © 2019, All Right Reserved</p>
             </div>
             <div className="col-6 ">
-             icons
+             -----
             </div>
           </div>
         </div>
