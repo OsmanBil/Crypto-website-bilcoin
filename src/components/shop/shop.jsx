@@ -9,34 +9,19 @@ class Shop extends Component {
     }
 
     addItem = (amount, name, price) => {
-        let currentItems = this.state.items;
-
-        let existingItem = this.state.items.find(item => item.name === name);
+        let currentItems = [...this.state.items];
+        let existingItem = currentItems.find(item => item.name === name);
         if (existingItem) {
-            existingItem.amount++;
+            existingItem.amount += amount;
         } else {
-            currentItems.push({
-                amount,
-                name,
-                price
-            });
+            currentItems.push({ amount, name, price });
         }
         this.setState({ items: currentItems });
     }
 
-    calculateTotal() {
-        return this.state.items.reduce((acc, item) => acc + (item.amount * item.price), 0).toFixed(2);
-    }
-    
-
-
     render() {
-
-        const total = this.calculateTotal();
-
         return (
-            <div className='shopping-cart'>
-
+            <div className='shop'>
                 <div className='sec-container'>
                     <div className='product-container'>
                         <Product onAdd={() => this.addItem(1, 'Tomaten', 2.99)} image="tomatoes.jpg" title="Tomaten" description="beschreibung des produktes ist offensichtlich hier!" />
@@ -45,15 +30,10 @@ class Shop extends Component {
                         <Product onAdd={() => this.addItem(1, 'Birnen', 4.99)} image="pears.jpg" title="Birnen" description="beschreibung des produktes ist offensichtlich hier!" />
                     </div>
                 </div>
-
-
-                <ShoppingCart />
-
-
-              
-
+                <div className='shopping-cart'>
+                    <ShoppingCart items={this.state.items} />
+                </div>
             </div>
-
         );
     }
 }
