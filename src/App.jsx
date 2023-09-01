@@ -6,6 +6,7 @@ import About from './components/about/about';
 import Systems from './components/systems/systems';
 import KeyFeatures from './components/keyFeatures/keyFeatures';
 import WhyUs from './components/whyUs/whyUs';
+import OrderConfirmation from './components/orderConfirmation/orderConfirmation';
 
 import Shop from './components/shop/shop';
 
@@ -75,6 +76,8 @@ class App extends Component {
                 <div className='main-container'>
                     <Routes>
                         <Route path="/shop" element={<Shop items={this.state.items} />} />
+                        <Route path="/orderConfirmation" element={<OrderConfirmation />} />
+
                         <Route path="/" element={
                             <>
                                 <div className="parallax-container">

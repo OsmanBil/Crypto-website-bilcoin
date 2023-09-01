@@ -1,0 +1,9 @@
+img{
+    padding-top: 8px;
+    max-width: 64px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
