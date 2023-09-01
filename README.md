@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React - Crypto Coin WebApp
+
+This project is React made example project
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
