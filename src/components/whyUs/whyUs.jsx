@@ -6,7 +6,7 @@ class WhyUs extends Component {
     render() {
         return <div className='why-us-container text-light'>
             <div className='why-us-left'>
-                <div className="card border-0" style={{ width: '18rem', backgroundColor: 'transparent' }}>
+                <div className="card border-0" style={{ backgroundColor: 'transparent' }}>
                     <div className="card-body w-50-p">
                         <h5 className="card-title ">CRYPTRO’S TECHNOLOGY DRIVES NEW WORLD</h5>
                         <p className="card-text custom-text-light">Create a tradeable digital token that can be used as a currency, a representation of an asset, a virtual share, a proof of membership or anything at all. These tokens use a standard coin API so your contract will be automatically compatible with any wallet, other contract or exchange also using this standard. The total amount of tokens in circulation can be set to a simple fixed amount or fluctuate based on any programmed ruleset.
